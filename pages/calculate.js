@@ -3,9 +3,11 @@ import Navbar from "@/components/Navbar";
 
 export default function Calculate() {
   return (
-    <div >
-      <Navbar />
-      <CalBox />
-    </div>
+    <div>
+    <Navbar black={true} />
+
+    <CalBox />
+   
+  </div>
   );
 }
