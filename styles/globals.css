@@ -2,7 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-.cal{
+.cal {
   background: linear-gradient(116.64deg, #a620f3 32.94%, #1e50ad 136.53%);
-  
+}
+
+.hero {
+  background: url("https://img.pikbest.com/ai/illus_our/20230427/4f9a6e7fd05a4a8d9dc4ea371d450b5d.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position-y: 20px;
+    background-position-x: 50px; */
+}
+
+@media screen and ( max-width: 768px) {
+  .hero {
+    background: url("https://img.pikbest.com/ai/illus_our/20230427/4f9a6e7fd05a4a8d9dc4ea371d450b5d.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
   }
+}
